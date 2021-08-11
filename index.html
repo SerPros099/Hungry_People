@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <title>Hungry people</title>
+</head>
+<body>
+    <header id="header" class="header"> <!-----Header----->
+        <div class="navbar">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#section-aboutUS">About</a></li>
+                <li><a href="#section-master-chef">Team</a></li>
+                <li><a href="#section-book-a-table">Booking</a></li>
+                <li><a class="right-side-nav" href="#section-delicious-menu">Menu</a></li>
+                <li><a href="#section-slider">Galerie</a></li>
+                <li><a href="#section-private-events">Events</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </div>
+        <logo class="header-logo">
+            <img src="images/logo.png">
+        </logo>
+        <div class="header_content">
+            <p class="left_bar">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+            <aside class="right_bar">
+                <img class="social-icon" src="images/facebook.png">
+                <img class="social-icon" src="images/twitter.png">
+                <img class="social-icon" src="images/instagram.png">
+            </aside>
+            <h2 class="header-subtitle">Restaurant</h2>
+            <h1 class="header-title">Hungry people</h1>
+            <a href="#section-book-a-table" class="book_table-btn">Book table</a>
+            <button type="button" class="explore-btn">Explore</button>
+            <a href="#section-aboutUS" class="down-btn">
+                <img src="images/Vector 1.png">
+            </a>
+        </div>    
+    </header> <!-----Header----->
+    <section id="section-aboutUS" class="section-aboutUS"> <!-----AboutUS----->
+        <h2 class="aboutUS-title">About us</h2>
+        <div class="about-text-box">
+            <p class="aboutUS-subtitle">
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Duis at velit maximus, 
+                molestie est a, tempor magna.</p><br>
+            <p class="aboutUS-text">
+                Integer ullamcorper neque eu purus euismod, 
+                ac faucibus mauris posuere. 
+                Morbi non ultrices ligula. 
+                Sed dictum, enim sed ullamcorper feugiat, 
+                dui odio vehicula eros, a sollicitudin 
+                lorem quam nec sem. Mauris tincidunt feugiat 
+                diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+        </div>    
+        <img class="aboutUS-picture" src="/images/aboutUS-picture.png">
+        <img class="aboutUS-picture2" src="/images/aboutUS-picture2.png">
+    </section> <!-----AboutUS----->
+    <section id="section-master-chef" class="section-master-chef"> <!-----Master chef----->
+        <p class="section-master-chef-name">Our team</p>
+        <img class="chef-picture" src="/images/chef-picture.png">
+        <img class="chef-picture2" src="/images/chef-picture2.png">
+        <h2 class="master-chef-title">Master chef</h2>
+        <div class="master-chef-text-box">
+            <p class="master-chef-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis at velit maximus, molestie est a, tempor magna.
+            </p><br>
+            <p class="master-chef-text">
+                Integer ullamcorper neque eu purus euismod, 
+                ac faucibus mauris posuere. Morbi non ultrices ligula. 
+                Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, 
+                a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat 
+                diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+        </div>
+    </section> <!-----Master chef----->
+    <section id="section-book-a-table" class="section-book-a-table"> <!-----Section-book-a-table----->
+        <form class="book-form" action="#" method="post">
+            <p class="form-title">Book a table</p>
+            <input class="form-item" type="text" name="username" placeholder="Name" required>
+            <input class="form-item" type="email" name="email" placeholder="Email" required>
+            <input class="form-item" type="tel" name="phone" placeholder="Phone" required>
+            <select class="form-item" type="number" name="people" placeholder="People" required>
+                <option value="People">People</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10+">10+</option>
+            </select>
+            <input class="form-item" type="date" name="date" placeholder="Date (mm/dd)" required>
+            <select class="form-item" type="number" name="time" placeholder="Time" required>
+                <option value="Time">Time</option>
+                <option value="8:00PM">8:00PM</option>
+                <option value="8:30PM">8:30PM</option>
+                <option value="9:00PM">9:00PM</option>
+                <option value="9:30PM">9:30PM</option>
+            </select>
+            <button class="book-now_btn" type="submit">Book now</button>
+        </form>
+        <img class="book-a-table-picture" src="/images/book-table.png" alt="book-table">
+        <img class="book-a-table-picture2" src="/images/book-table2.png" alt="book-table2">
+        <p class="book-a-table-hours">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</p>
+    </section> <!-----Section-book-a-table----->
+    <section class="section-chocolate-pancakes"> <!-----Chocolate-pancakes----->
+        <p class="section-chocolate-pancakes-name">Specialties</p>
+        <img class="chocolate-pancakes-picture" src="/images/chocolate-pancakes-picture.png">
+        <img class="chocolate-pancakes-picture2" src="/images/chocolate-pancakes-picture2.png">
+        <h2 class="chocolate-pancakes-title">Chocolate pancakes</h2>
+        <div class="chocolate-pancakes-text-box">
+            <p class="chocolate-pancakes-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis at velit maximus, molestie est a, tempor magna.
+            </p><br>
+            <p class="chocolate-pancakes-text">
+                Integer ullamcorper neque eu purus euismod, 
+                ac faucibus mauris posuere. Morbi non ultrices ligula. 
+                Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, 
+                a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat 
+                diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+        </div>
+    </section> <!-----Chocolate-pancakes----->
+    <section id="section-delicious-menu" class="section-delicious-menu"> <!-----Delicious-menu----->
+        <div class="menu-wrapper">
+            <h2 class="menu-title">Delicious menu</h2>
+            <p class="menu-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis at velit maximus, molestie est a, tempor magna.
+            </p>
+            <div class="sub-menu">
+                <p class="sub-menu-item">Soupe</p>
+                <p class="sub-menu-item">Pizza</p>
+                <p class="sub-menu-item">Pasta</p>
+                <p class="sub-menu-item">Desert</p>
+                <p class="sub-menu-item">Wine</p>
+                <p class="sub-menu-item">Beer</p>
+                <p class="sub-menu-item">Drinks</p>
+            </div>
+            <div class="group-menu">
+                <div class="group-menu-cols">
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod<br></p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+                <div class="group-menu-cols">
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod<br></p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod<</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                </div>
+                <div class="group-menu-cols">
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod<br></p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod<</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    <div class="group-menu-cols-item">
+                        <h2  class="group-menu-cols-item-title">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h2>
+                        <p class="group-menu-cols-item-text">Integer ullamcorper neque eu purus euismod</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!---Menu-wrapper-->
+    </section>  <!-----Delicious-menu----->
+    <section id="section-private-events" class="section-private-events"> <!-----Private-events----->
+        <h2 class="private-events-title">PRIVATE EVENTS</h2>
+        <div class="events-items">
+            <div class="left-side-events">
+                <img class="left-side-picture" src="/images/left-side-picture.png" alt="Weddings">
+                <img class="left-side-picture2" src="/images/right-side-picture2.png" alt="Weddings-yellow">
+                <div class="left-side-title">
+                    <p class="left-side-text">Weddings</p>
+                </div> 
+            </div>
+            <div class="right-side-events">
+                <img class="right-side-picture" src="/images/right-side-picture.png" alt="Corporative">
+                <img class="right-side-picture2" src="/images/right-side-picture2.png" alt="Corporative-yellow">
+                <div class="right-side-title">
+                    <p class="right-side-text">Corporate pzrties</p>
+                </div> 
+            </div>
+        </div>    
+        <p class="private-events-call">For private events please call: 
+            +40 729 131 637/+40 726 458 782 or use the contact form.
+        </p>
+    </section> <!-----Private-events----->
+    <section id="section-slider" class="section-slider"> <!-----Section-slider----->
+        <div class="slider">
+            <div class="slider-item">
+                <img src="/images/slider1.png">
+            </div>
+            <div class="slider-item">
+                <img src="/images/slider2.png">
+            </div>
+            <div class="slider-item">
+                <img src="/images/slider3.png">
+            </div>
+            <div class="slider-item">
+                <img src="/images/slider4.png">
+            </div>
+        </div>
+    </section> <!-----Section-slider----->
+    <section id="section-contact" class="section-contact"> <!-----Section-contact----->
+        <div class="section-contact-wrapper">
+            <h2 class="section-contact-tilte">Contact</h2>
+            <p class="section-contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis at velit maximus, molestie est a, tempor magna.
+            </p>
+            <form class="section-contact-form" action="#" method="post">
+                <input class="section-contact-form-item" type="text" name="username" placeholder="Name" required>
+                <input class="section-contact-form-item item-email" type="email" name="email" placeholder="Email" required>
+                <input class="section-contact-form-item" type="tel" name="phone" placeholder="Phone" required>
+                <input class="section-contact-form-item item-message" type="text" name="text" placeholder="Message" required>
+                <div class="section-contact-contacts">
+                    <img src="#" class="section-contact-contacts-icon">
+                    <a class="section-contact-contacts-link" href="#">5th London Boulevard, U.K</a>
+                    <img src="#" class="section-contact-contacts-icon">
+                    <a class="section-contact-contacts-link" href="#">+40 729 131 637/+40 726 458 782</a>
+                    <img src="#" class="section-contact-contacts-icon">
+                    <a class="section-contact-contacts-link" href="#">office@mindblister.com</a>
+                </div>
+                <button class="section-contact-form-btn" type="submit">Send message</button>
+            </form>
+        </div>    
+    </section> <!-----Section-contact----->
+    <section class="section-map"> <!-----Section-map----->
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12120.700915248837!2d-73.94773805!3d40.58188740000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1628369841142!5m2!1sen!2sus" width="1440" height="475" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section> <!-----Section-map----->
+    <footer class="footer">
+        <p class="footer-text">© Copyright Mindblister  2019</p>
+    </footer>
+</body>
+</html>
