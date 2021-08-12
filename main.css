@@ -269,7 +269,7 @@ ul li a:hover {
  /*-----Master chef-----*/
 
 .section-master-chef {
-    background-image: url('./images/master-chef-bg.jpg');
+    background-image: url("images/master-chef-bg.jpg");
     background-repeat: no-repeat;
     width: 1440px;
     height: 675px;
@@ -467,7 +467,7 @@ ul li a:hover {
 .section-chocolate-pancakes {
     width: 1440px;
     height: 675px;
-    background-image: url('./images/chocolate-pancakes-bg.jpg');
+    background-image: url("images/chocolate-pancakes-bg.jpg");
     background-repeat: no-repeat;
     margin-top: 100px;
     position: relative;
@@ -642,7 +642,7 @@ ul li a:hover {
 .section-private-events {
     width: 1440px;
     height: 675px;
-    background-image: url(./images/private-events-bg.png);
+    background-image: url("images/private-events-bg.png");
     background-repeat: no-repeat;
     margin-top: 50px;
 }
