@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-----Header-----*/
 
 .header {
-    background-image: url("./images/header-bg.jpg");
+    background-image: url("images/header-bg.jpg");
     min-height: 800px;
     width: 1440px;
     background-repeat: no-repeat;
