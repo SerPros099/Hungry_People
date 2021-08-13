@@ -681,12 +681,6 @@ ul li a:hover {
 .left-side-picture {
     position: absolute;
     left: 125px;
-    transition: 0.2s;
-}
-.left-side-picture:hover {
-    transform: scale(1.1);
-    transition: 0.2s;
-    z-index: 2;
 }
 .left-side-picture2 {
     position: absolute;
