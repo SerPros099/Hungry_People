@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-----Header-----*/
 
 .header {
-    background-image: url("images/header-bg.jpg");
+    background-image: url("images/header-bg-optimized.jpg");
     min-height: 800px;
     width: 1440px;
     background-repeat: no-repeat;
@@ -45,15 +45,16 @@ ul li a:hover {
     border-bottom: 2px solid #e8c300;
     color: #e8c300;
 }
+.left-side-nav {
+    margin-left: 80px;
+}
 .right-side-nav {
-    margin-left: 220px;
+    margin-right: 80px;
 }
 .header-logo {
     width: 150px;
     height: 150px;
-    margin-left: 645px;
-    margin-top: -75px;
-    position: absolute;
+    margin-top: 100px;
     transition: 10s;
 }
 .header-logo:hover {
@@ -136,7 +137,6 @@ ul li a:hover {
     height: 60px;
     font-weight: bold;
     font-size: 12px;
-    line-height: 20px;
     background-color:rgba(0, 0, 0, 0);
     color: #fff;
     text-transform: uppercase;
@@ -147,6 +147,10 @@ ul li a:hover {
     margin-top: 30px;
     transition: 0.2s;
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .explore-btn:hover {
     background-color: #E8C300;
@@ -160,7 +164,6 @@ ul li a:hover {
     height: 60px;
     font-weight: bold;
     font-size: 12px;
-    line-height: 20px;
     background-color:rgba(0, 0, 0, 0);
     color: #fff;
     text-transform: uppercase;
@@ -270,7 +273,7 @@ ul li a:hover {
  /*-----Master chef-----*/
 
 .section-master-chef {
-    background-image: url("images/master-chef-bg.jpg");
+    background-image: url("images/master-chef-bg-optimized.jpg");
     background-repeat: no-repeat;
     width: 1440px;
     height: 675px;
@@ -391,7 +394,9 @@ ul li a:hover {
     position: absolute;
     left: 772px;
     top: 99px;
+    filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
     transition: 0.5s;
+    border-radius: 5px;
 }
 .book-a-table-picture:hover {
     transform: scale(1.1);
@@ -468,7 +473,7 @@ ul li a:hover {
 .section-chocolate-pancakes {
     width: 1440px;
     height: 675px;
-    background-image: url("images/chocolate-pancakes-bg.jpg");
+    background-image: url("images/chocolate-pancakes-bg-optimized.jpg");
     background-repeat: no-repeat;
     margin-top: 100px;
     position: relative;
@@ -478,8 +483,8 @@ ul li a:hover {
     animation-direction: alternate;
 }
 @keyframes changeBg {
-    0% { background-image: url("images/chocolate-pancakes-bg.jpg"); }
-    100% { background-image: url("images/master-chef-bg.jpg"); }
+    0% { background-image: url("images/chocolate-pancakes-bg-optimized.jpg"); }
+    100% { background-image: url("images/master-chef-bg-optimized.jpg"); }
 }
 .section-chocolate-pancakes-name {
     width: 1440px;
@@ -653,7 +658,7 @@ ul li a:hover {
 .section-private-events {
     width: 1440px;
     height: 675px;
-    background-image: url("images/private-events-bg.png");
+    background-image: url("images/private-events-bg-optimized.jpg");
     background-repeat: no-repeat;
     margin-top: 50px;
 }
@@ -856,6 +861,7 @@ ul li a:hover {
     color: rgba(51, 51, 51, 0.5);
     font-size: 12px;
     text-decoration: none;
+    margin: 0px 0px 0px 5px;
 }
 .section-contact-form-btn {
     width: 630px;
@@ -878,6 +884,9 @@ ul li a:hover {
 }
 .section-contact-form-btn:active {
     background-color: #caa903;
+}
+.section-contact-contacts-icon {
+    margin: 0px 0px 0px 15px;
 }
 
 /*-----Section map-----*/
